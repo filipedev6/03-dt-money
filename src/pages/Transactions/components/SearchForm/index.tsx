@@ -6,22 +6,6 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { useContextSelector } from 'use-context-selector'
 import { TransactionsContext } from '../../../../contexts/TransactionsContext'
 
-/**
- * Por que um componente renderiza?
- * - Hooks change (mudou estado, contexto, reducer)
- * - Props change (mudou propriedades)
- * - Parent rerendered (componente pai)
-
- * Qual o fluxo de renderização?
- * - 1. React recria a HTML da interface daquele componente
- * - 2. Compara a versão do HTML recriada com a versão anterior
- * - 3. SE mudou alguma coisa, ele reescreve o HTML na tela
- * 
- * Memo:
- * - 0. Hooks changed, Props changed (deep comparison)
- * - 0.1 Se mudou algo, ele vai permitir a nova renderização
- */
-
 const searchFormSchema = z.object({
   query: z.string(),
 })
