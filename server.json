@@ -31,6 +31,14 @@
       "price": 65,
       "createdAt": "2023-06-16T02:08:44.822Z",
       "id": 4
+    },
+    {
+      "description": "PASTEL",
+      "category": "Alimentação",
+      "type": "outcome",
+      "price": 10,
+      "createdAt": "2023-06-18T19:48:54.261Z",
+      "id": 5
     }
   ]
 }
