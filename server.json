@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 12000,
+      "createdAt": "2023-06-15T20:31:06.886Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 69,
+      "createdAt": "2023-06-15T19:40:06.886Z"
+    },
+    {
+      "description": "Ignite Rocketseat",
+      "category": "Cursos",
+      "type": "outcome",
+      "price": 2090,
+      "createdAt": "2023-06-16T01:56:32.320Z",
+      "id": 3
+    },
+    {
+      "description": "Pizza",
+      "category": "Alimentação",
+      "type": "outcome",
+      "price": 65,
+      "createdAt": "2023-06-16T02:08:44.822Z",
+      "id": 4
+    }
+  ]
+}
